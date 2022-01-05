@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'searchs/top'
+  get '/search' => 'searchs#search', as: 'search'
   get 'relationships/followings'
   get 'relationships/followers'
   devise_for :users
