@@ -40,6 +40,6 @@ class SearchsController < ApplicationController
 
 		else
       # @users = User.none
-    end
-	end
+        end
+   end
 end
